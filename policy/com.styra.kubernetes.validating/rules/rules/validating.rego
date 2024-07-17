@@ -24,7 +24,7 @@ chrome_browser {
 }
 
 block_productpage_v1 {
-	input.attributes.destination.service.name == "productpage-v1"
+	input.attributes.destination.service.name == "productpage"
 	input.attributes.destination.service.namespace == "default"
 	chrome_browser
 }
