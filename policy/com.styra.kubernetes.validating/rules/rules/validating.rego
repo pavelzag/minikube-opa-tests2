@@ -20,7 +20,7 @@ allow {
 }
 
 chrome_browser {
-	contains(headers["user-agent"], "Chrome")
+	contains(headers["user-agent"], "Mozilla/5.0")
 }
 
 block_productpage_v1 {
